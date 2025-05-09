@@ -18,8 +18,8 @@ It operates by overriding the swift-syntax source repo pulled in by your macros.
 
 ### TL;DR
 
-You can use it one of two ways. You can add it as a top level dependency of your project in Xcode (referencing branch main rather than a tag) or,
-you can clone the repo to your local drive and dragging it onto the top level of your project as you would to work on a Swift package as is
+This repo acn be used one of two ways. You can add it as a top level dependency of your project in Xcode (referencing branch main rather than a tag) or,
+you can clone the repo to your local drive and drag it onto the top level of your project as you would to work on a Swift package as is
 [documented here](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package) .
 
 It works by replacing the dependency of your macros on the source repo of `swift-syntax` with this binary repo as they share the same "identity" (last path component of the URL or directory). This currently gives a warning during resolution which you can ignore.
