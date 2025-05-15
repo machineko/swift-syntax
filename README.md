@@ -18,7 +18,7 @@ It operates by overriding the swift-syntax source repo pulled in by your macros.
 
 ### TL;DR
 
-This repo acn be used one of two ways. You can add it as a top level dependency of your project in Xcode (referencing branch main rather than a tag) or,
+This repo can be used one of two ways. You can add it as a top level dependency of your project in Xcode (referencing branch main rather than a tag) or,
 you can clone the repo to your local drive and drag it onto the top level of your project as you would to work on a Swift package as is
 [documented here](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package) .
 
