@@ -1,0 +1,12 @@
+// swift-tools-version: 6.0
+
+import CompilerPluginSupport
+import PackageDescription
+
+let tag = "601.0.1" // https://github.com/apple/swift-syntax version
+let modules: [(name: String, checksum: String, depends: [String])] = [
+    ("SwiftSyntax601", "__CHECKSUM__SwiftSyntax601__", ["SwiftSyntax601"]),
+    ("SwiftSyntax600", "__CHECKSUM__SwiftSyntax600__", ["SwiftSyntax600"]),
+    ("SwiftSyntax", "__CHECKSUM__SwiftSyntax__", ["SwiftSyntax"]),
+    ("SwiftDiagnostics", "__CHECKSUM__SwiftDiagnostics__", ["SwiftDiagnostics"]),
+    ("SwiftBasicFormat", "__CHECKSUM__SwiftBasicFormat__", ["SwiftBasicFormat"]),
